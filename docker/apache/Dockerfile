@@ -16,6 +16,6 @@ RUN a2enmod rewrite
 RUN chown -hR www-data:www-data /var/www/html
 
 USER www-data
-RUN echo "1000 ALL=NOPASSWD: ALL" >> /etc/sudoers
+RUN echo "www-data ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 EXPOSE 8081
