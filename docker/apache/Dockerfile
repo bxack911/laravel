@@ -13,9 +13,11 @@ RUN apt-get update && apt-get install -y \
 
 RUN a2enmod rewrite
 
-RUN chown -hR www-data:www-data /var/www/html
+RUN chown -hR root:root /var/www/html
+RUN chmod -R 777 /var/www/html/storage
+RUN chmod -R 777 /var/www/html/bootstrap/cahce
 
-USER www-data
-#RUN echo "www-data ALL=NOPASSWD: ALL" >> /etc/sudoers
+USER root
+RUN echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 EXPOSE 8081
