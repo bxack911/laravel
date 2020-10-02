@@ -14,8 +14,6 @@ RUN apt-get update && apt-get install -y \
 RUN a2enmod rewrite
 
 RUN chown -hR root:root /var/www/html
-RUN chmod -R 755 /var/www/html/storage
-RUN chmod -R 755 /var/www/html/bootstrap/cahce
 
 USER root
 RUN echo "root ALL=NOPASSWD: ALL" >> /etc/sudoers
