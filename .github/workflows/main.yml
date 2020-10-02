@@ -1,5 +1,5 @@
 on: push
-name: Nover bot
+name: Laravel
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
