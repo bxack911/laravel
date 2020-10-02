@@ -13,10 +13,9 @@ RUN apt-get update && apt-get install -y \
 
 RUN a2enmod rewrite
 
-RUN chown -hR 1000:1000 /var/www/html
-RUN chmod -R 755 /var/www/html
+RUN chown -hR www-data:www-data /var/www/html
 
-USER root
+USER www-data
 RUN echo "1000 ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 EXPOSE 8081
