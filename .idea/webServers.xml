@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f8e95b2c-290a-4770-b932-e6598f2b5f68" name="laravel" url="http://51.15.178.226">
+        <fileTransfer accessType="SFTP" host="51.15.178.226" port="22" sshConfigId="5365eba7-d212-4e4b-843a-d462dedcf404" sshConfig="nover@51.15.178.226:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

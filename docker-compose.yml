@@ -1,0 +1,46 @@
+version: "3"
+ 
+services:
+    apache:
+        build: ./docker/apache
+        ports:
+            - "8081:80"
+        environment:
+            DOCKER_HOST: "unix:///var/run/docker.sock"
+        volumes:
+            - ./html:/var/www/html/:z
+            - ./docker/apache/php.ini:/usr/local/etc/php/php.ini:z
+        networks:
+            - backend
+ 
+    db:
+        image: "mysql:8"
+        volumes:
+            - ./docker/db:/var/lib/mysql
+        environment:
+               MYSQL_ROOT_PASSWORD: pass
+               MYSQL_DATABASE: sprava_lara
+               MYSQL_USER: sprava_lara
+               MYSQL_PASSWORD: pass
+        networks:
+            - backend
+ 
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:latest
+        environment:
+            - PMA_HOST=db
+            - PMA_USER=sprava_lara
+            - PMA_PASSWORD=pass
+        volumes:
+            - ./docker/apache/upload.ini:/usr/local/etc/php/php.ini:z
+            - /sessions
+        ports:
+            - "8082:80"
+        networks:
+            - backend
+ 
+networks:
+    front:
+        external:
+            name: front
+    backend:
