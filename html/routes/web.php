@@ -12,6 +12,7 @@
 */
 Route::get('/rabbit', function() {
     App\Jobs\ProcessPodcast::dispatch('Test message');
+    App\Jobs\ProcessPodcast::dispatch('Test message1');
 });
 
 Route::get('/', function () {
