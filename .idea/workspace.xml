@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8be5fd6d-dc9e-4b51-8ce7-cd40a44be0d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -243,7 +242,7 @@
       <workItem from="1601664587946" duration="4660000" />
       <workItem from="1601720165196" duration="8215000" />
       <workItem from="1601748009097" duration="1199000" />
-      <workItem from="1601795873591" duration="11029000" />
+      <workItem from="1601795873591" duration="13328000" />
     </task>
     <servers />
   </component>
@@ -271,10 +270,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="536" y="205" key="#SSH_Configurations/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601664633311" />
-    <state x="709" y="364" width="516" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595752693615">
+    <state x="709" y="364" width="516" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601819526337">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="709" y="364" width="516" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.0.1920.1080@0.40.1920.1040" timestamp="1595752693615" />
+    <state x="709" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601819526337" />
     <state x="567" y="138" width="766" height="836" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595762788800">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
