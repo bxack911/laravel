@@ -10,6 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/rabbit', function() {
+    App\Jobs\ProcessPodcast::dispatch('Test message');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
