@@ -18,10 +18,10 @@ services:
         volumes:
             - ./docker/db:/var/lib/mysql
         environment:
-               MYSQL_ROOT_PASSWORD: pass
-               MYSQL_DATABASE: sprava_lara
-               MYSQL_USER: sprava_lara
-               MYSQL_PASSWORD: pass
+            MYSQL_ROOT_PASSWORD: pass
+            MYSQL_DATABASE: sprava_lara
+            MYSQL_USER: sprava_lara
+            MYSQL_PASSWORD: pass
         networks:
             - backend
 
