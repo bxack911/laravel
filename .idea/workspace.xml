@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8be5fd6d-dc9e-4b51-8ce7-cd40a44be0d9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/apache/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/docker/apache/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +241,9 @@
       <workItem from="1598126303752" duration="5921000" />
       <workItem from="1598132445980" duration="682000" />
       <workItem from="1601664587946" duration="4660000" />
-      <workItem from="1601720165196" duration="6817000" />
+      <workItem from="1601720165196" duration="8215000" />
+      <workItem from="1601748009097" duration="1199000" />
+      <workItem from="1601795873591" duration="1573000" />
     </task>
     <servers />
   </component>
@@ -285,10 +287,11 @@
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="100" y="139" width="1720" height="840" key="DiffContextDialog/0.40.1920.1040/1920.0.1920.1080@0.40.1920.1040" timestamp="1595749950354" />
-    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597647606390">
+    <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl" timestamp="1601747792116">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="743" y="317" width="424" height="478" key="FileChooserDialogImpl/0.40.1920.1040/1920.0.1920.1080@0.40.1920.1040" timestamp="1597647606390" />
+    <state x="743" y="317" key="FileChooserDialogImpl/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601747792116" />
     <state x="464" y="194" key="SettingsEditor" timestamp="1594746383817">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
