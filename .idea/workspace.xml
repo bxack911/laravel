@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8be5fd6d-dc9e-4b51-8ce7-cd40a44be0d9" name="Default Changelist" comment="" />
+    <list default="true" id="8be5fd6d-dc9e-4b51-8ce7-cd40a44be0d9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/apache/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/apache/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +243,8 @@
       <workItem from="1601664587946" duration="4660000" />
       <workItem from="1601720165196" duration="8215000" />
       <workItem from="1601748009097" duration="1199000" />
-      <workItem from="1601795873591" duration="13396000" />
+      <workItem from="1601795873591" duration="15454000" />
+      <workItem from="1601830059401" duration="3424000" />
     </task>
     <servers />
   </component>
@@ -260,10 +264,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="218" key="#Deployment" timestamp="1601664635616">
+    <state x="552" y="218" key="#Deployment" timestamp="1601833284014">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="552" y="218" key="#Deployment/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601664635616" />
+    <state x="552" y="218" key="#Deployment/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601833284014" />
     <state x="536" y="205" key="#SSH_Configurations" timestamp="1601664633311">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
@@ -324,5 +328,9 @@
     </state>
     <state x="685" y="474" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.40.1920.1040/1920.0.1920.1080@0.40.1920.1040" timestamp="1595778154553" />
     <state x="2605" y="451" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.40.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596912762380" />
+    <state x="756" y="298" key="webDeployment.PermissionsDialog.Tabs" timestamp="1601833368631">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="756" y="298" key="webDeployment.PermissionsDialog.Tabs/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1601833368631" />
   </component>
 </project>
